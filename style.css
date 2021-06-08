@@ -21,7 +21,7 @@ img {
 }
 
 .topo {
-    background: url'(./assets/detalhe-topo.png') no-repeat right top;
+    background: url('./assets/detalhe-topo.png') no-repeat right top;
     height: 150px;
     padding-top: 25px;
 }
