@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Trebuchet MS', Helvetica, sans-serif sans-serif;
-    background: #fff url(./assets/fundo.png) repeat-x;
+    background: #fff url('./assets/fundo') repeat-x;
 }
 
 img {
@@ -21,7 +21,7 @@ img {
 }
 
 .topo {
-    background: url(./assets/detalhe-topo.png) no-repeat right top;
+    background: url'(./assets/detalhe-topo.png') no-repeat right top;
     height: 150px;
     padding-top: 25px;
 }
@@ -29,7 +29,7 @@ img {
 .logo {
     width: 152px;
     height: 66px;
-    background: url(./assets/logo.png);
+    background: url('./assets/logo.png');
     text-indent: -3000px;
 }
 
@@ -42,7 +42,7 @@ nav ul {
 
 .nav-bar {
     padding: 13px 40px;
-    background: #b10333 url(./assets/divisor.png) no-repeat left center;
+    background: #b10333 url('./assets/divisor.png') no-repeat left center;
 }
 
 .nav-bar a {
@@ -101,7 +101,7 @@ main {
 /* Lateral */
 
 .cabecalho {
-    background: #f3f3f3 url(./assets/fundo-caixa.png);
+    background: #f3f3f3 url('./assets/fundo-caixa.png');
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -132,7 +132,7 @@ main {
 
 .lateral .conteudo a:hover {
     color: grey;
-    background: url(./assets/marcador.png) no-repeat left center;
+    background: url('./assets/marcador.png') no-repeat left center;
     padding-left: 20px;
 }
 
