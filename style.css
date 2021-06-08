@@ -1,0 +1,245 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif sans-serif;
+    background: #fff url(/assets/fundo.png) repeat-x;
+}
+
+img {
+    border: 2px #dfdfdf solid;
+}
+
+/* Cabeçalho */
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.topo {
+    background: url(/assets/detalhe-topo.png) no-repeat right top;
+    height: 150px;
+    padding-top: 25px;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(/assets/logo.png);
+    text-indent: -3000px;
+}
+
+nav ul {
+    display: flex;
+    position: absolute;
+    list-style-type: none;
+    top: 120px;
+}
+
+.nav-bar {
+    padding: 13px 40px;
+    background: #b10333 url(/assets/divisor.png) no-repeat left center;
+}
+
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.nav-bar:hover {
+    background: red;
+}
+
+.atualPage {
+    background: red;
+}
+
+/* Formatação colunas */
+
+main {
+    background: #f5f5f5;
+    width: 750px;
+    margin: 60px auto 0;
+}
+
+.lateral {
+    width: 180px;
+    margin: 0 0 20px -750px;
+    float: left;
+}
+
+
+#tres-colunas .primario {
+    margin: 0 0 20px 195px;
+    width: 270px;
+    float: left;
+}
+
+#duas-colunas .primario {
+    margin: 0 0 20px 195px;
+    width: 555px;
+    float: left;
+}
+
+#uma-coluna .primario {
+    width: 750px;
+    margin-bottom: 20px;
+}
+
+.secundario {
+    margin: 0 0 20px 15px;
+    width: 270px;
+    float: left;
+}
+
+/* Lateral */
+
+.cabecalho {
+    background: #f3f3f3 url(/assets/fundo-caixa.png);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 10px 0;
+}
+
+.cabecalho .titulo {
+    background: #294c71;
+    padding: 4px;
+    margin: 5px;
+    color: #fff;
+}
+
+.cabecalho .conteudo {
+    background: #fff;
+    margin: 5px;
+}
+
+.lateral .conteudo li {
+    list-style-type: none;
+    padding: 8px;
+}
+
+.lateral .conteudo a {
+    text-decoration: none;
+    color: #000;
+}
+
+.lateral .conteudo a:hover {
+    color: grey;
+    background: url(/assets/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+.cabecalho form {
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.cabecalho label {
+    font-size: 20px;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cabecalho button {
+    background-color: #b10333;
+    color: #fff;
+    border: 0.5px black solid;
+    padding: 5px;
+}
+
+.cabecalho input {
+    width: 90%;
+    height: 25px;
+    border: rgba(209, 209, 204, 0.7) 1px solid;
+}
+
+
+/* Principal */
+
+.materia {
+    padding: 4px;
+}
+
+.materia h4,
+.lista-noticias a h3 {
+    text-transform: uppercase;
+}
+
+.materia h4 {
+    font-size: 13px;
+    font-weight: bolder;
+    background: red;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.materia img {
+    width: 98%;
+}
+
+.materia p {
+    font-size: 17px;
+}
+
+.materia a {
+    color: black;
+}
+
+.materia .principal {
+    color: #fff;
+}
+
+/* Lista de notícias */
+.lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+    list-style-type: none;
+}
+
+.lista-noticias li img {
+    float: left;
+    margin: 5px;
+}
+
+.lista-noticias li a {
+    text-decoration: none;
+}
+
+.lista-noticias li p {
+    font-size: 0.8em;
+    color: #000;
+}
+
+.lista-noticias li h3 {
+    padding: 6px 5px 3px 6px;
+    color: #3e7ab9;
+    font-size: 0.8em;
+}
+
+.lista-noticias li:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+/* Rodapé */
+
+footer {
+    background: #294c71;
+    padding: 20px;
+    clear: both;
+}
+
+.footer {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
